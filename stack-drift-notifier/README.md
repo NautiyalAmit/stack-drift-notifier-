@@ -22,9 +22,7 @@ Before you deploy this CloudFormation template, you need to build the lambda fun
 ### Step 1: Clone the example Github project.
 I have prepared a Github project with all of the example CloudFormation and code to get you off the ground. Clone this Github project to your local machine.
 
-```
-git clone https://github.com/dejonghe/stack-drift-notifier
-```
+
 
 ### Step 2: Create a S3 Bucket. (Skip if you have a bucket to work from, use that buckets name from now on)
 You will need a S3 bucket to work out of, we will use this bucket to upload our lambda code zip. Create the bucket with the following CLI command or through the console. Keep in mind that S3 bucket names are globally unique and you will have to come up with a bucket name for yourself.
